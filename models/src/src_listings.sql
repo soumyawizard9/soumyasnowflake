@@ -1,6 +1,6 @@
 WITH RAW_LISTINGS AS 
 (
-   SELECT * FROM AIRBNB_DBT.RAW.LISTINGS 
+   SELECT * FROM {{source('airbnb','raw_listings')}}
 )
 SELECT 
     ID AS LISTING_ID,
