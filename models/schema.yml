@@ -1,5 +1,6 @@
 models:
   - name: dim_listings_cleansed
+    description: This is cleansed listing data from soumya snowflake
     data_tests:
       - generic_positive_values:
           arguments:
